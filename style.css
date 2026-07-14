@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --color-red: #d90057;
+    --color-white: #eaeaea;
+    --color-gray: #727272;
+    --color-black: #1d1722;
+    --color-green: #078a85;
+    --color-cream: #ffe2ba;
+}
+
+body{
+    background-color: var(--color-black);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 8rem;
+    font-family: sans-serif;
+    background: linear-gradient(var(--color-red), var(--color-black));
+    color: var(--color-white);
+    padding: 2rem 0;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+h1, .header__text>p{
+    margin-bottom: 1.5rem;
+}
+
+.header__text>p {
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+}
+
+h1:hover{
+    cursor: pointer;
+}
+
+h2 {
+    color: var(--color-white);
+}
+
+a {
+    color: var(--color-white);
+    font-weight: 700;
+}
+
+nav > ul {
+    word-spacing: 8rem;
+}
+
+nav > ul > li{
+    display: inline;
+}
+
+ul > li > a{
+    text-decoration: underline;
+}
+
+.section__projects {
+    margin: 0 auto;
+    text-align: center;
+    width: 60vw;
+
+}
+
+.project__element {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.25rem;
+    display: inline-block;
+    color: var(--color-black);
+    background-color: var(--color-cream);
+    border: 0.25rem solid var(--color-red);
+    border-radius: 1rem;
+    width: 12rem;
+    height: 3rem;
+    padding: 3rem 2rem;
+    margin: 1rem 2rem;
+    position: relative;
+    box-shadow: 0.5rem 0.5rem var(--color-red);
+}
+
+.gallery__addproject {
+    display: inline-block;
+    color: var(--color-black);
+    background-color: var(--color-green);
+    border: 0.25rem solid var(--color-red);
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    width: 12rem;
+    height: 3rem;
+    padding: 3rem 2rem;
+    margin: 1rem 2rem;
+}
+
+.project__element:hover, .gallery__addproject:hover{
+    cursor: pointer;
+}
+
+
+
+
+img {
+    width: 3rem;
+    position:absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.trash {
+    position:absolute;
+    left: 0;
+    top: 0;
+}
+
+#section__references {
+    height: 2rem;
+    width: 100vw;
+    margin: 10rem 5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    width: 100vw;
+    height: 3rem;
+    color: var(--color-white);
+    background: linear-gradient(var(--color-black), var(--color-green));
+
+}
